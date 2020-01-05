@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1578138976 source:/home/zsco/code/MyRedis/main.c
+1578209089 source:/home/zsco/code/MyRedis/main.c
 	<stdio.h>
 	"sds.h"
 	<stdlib.h>
 	<string.h>
+	"adlist.h"
 
 1578141405 /home/zsco/code/MyRedis/sds.h
 	<sys/types.h>
@@ -26,11 +27,24 @@
 
 1578029986 source:/home/zsco/code/MyRedis/config.c
 
-1578054201 source:/home/zsco/code/MyRedis/zmalloc.c
+1578205328 source:/home/zsco/code/MyRedis/zmalloc.c
 	<stdlib.h>
 	<string.h>
 	"zmalloc.h"
 	<stdio.h>
 
-1578054127 /home/zsco/code/MyRedis/zmalloc.h
+1578210556 /home/zsco/code/MyRedis/zmalloc.h
+	<unistd.h>
+
+1578227210 source:/home/zsco/code/MyRedis/adlist.c
+	"adlist.h"
+	"zmalloc.h"
+	<stdio.h>
+	<stdio.h>
+	"sds.h"
+	<stdlib.h>
+	<string.h>
+	"adlist.h"
+
+1578212677 /home/zsco/code/MyRedis/adlist.h
 

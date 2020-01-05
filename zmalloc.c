@@ -18,7 +18,7 @@ void *zmalloc(size_t size){
 
     if(!ptr) zmalloc_oom_handler(size);
 
-    return (char*)ptr;
+    return ptr;
 
 }
 
