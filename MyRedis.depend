@@ -1,14 +1,49 @@
 # depslib dependency file v1.0
-1578209089 source:/home/zsco/code/MyRedis/main.c
+1578227210 source:/home/zsco/code/MyRedis/adlist.c
+	"adlist.h"
+	"zmalloc.h"
+	<stdio.h>
 	<stdio.h>
 	"sds.h"
 	<stdlib.h>
 	<string.h>
 	"adlist.h"
 
+1578212677 /home/zsco/code/MyRedis/adlist.h
+
+1578210556 /home/zsco/code/MyRedis/zmalloc.h
+	<unistd.h>
+
 1578141405 /home/zsco/code/MyRedis/sds.h
 	<sys/types.h>
 	<stdarg.h>
+
+1579416126 source:/home/zsco/code/MyRedis/dict.c
+	"fmacros.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<limits.h>
+	<sys/time.h>
+	<ctype.h>
+	<unistd.h>
+	<inttypes.h>
+	"dict.h"
+	"zmalloc.h"
+	<assert.h>
+
+1578295689 /home/zsco/code/MyRedis/fmacros.h
+
+1579415324 /home/zsco/code/MyRedis/dict.h
+	<inttypes.h>
+
+1579415551 source:/home/zsco/code/MyRedis/main.c
+	<stdio.h>
+	"dict.h"
+	<assert.h>
+	<string.h>
+	<stdlib.h>
 
 1578140986 source:/home/zsco/code/MyRedis/sds.c
 	"sds.h"
@@ -23,28 +58,9 @@
 	<stdlib.h>
 	<string.h>
 
-1578030055 source:/home/zsco/code/MyRedis/cluster.c
-
-1578029986 source:/home/zsco/code/MyRedis/config.c
-
-1578205328 source:/home/zsco/code/MyRedis/zmalloc.c
+1579348800 source:/home/zsco/code/MyRedis/zmalloc.c
 	<stdlib.h>
 	<string.h>
 	"zmalloc.h"
 	<stdio.h>
-
-1578210556 /home/zsco/code/MyRedis/zmalloc.h
-	<unistd.h>
-
-1578227210 source:/home/zsco/code/MyRedis/adlist.c
-	"adlist.h"
-	"zmalloc.h"
-	<stdio.h>
-	<stdio.h>
-	"sds.h"
-	<stdlib.h>
-	<string.h>
-	"adlist.h"
-
-1578212677 /home/zsco/code/MyRedis/adlist.h
 

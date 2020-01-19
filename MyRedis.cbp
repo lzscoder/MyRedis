@@ -31,9 +31,19 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="adlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adlist.h" />
+		<Unit filename="dict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dict.h" />
+		<Unit filename="fmacros.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="redisassert.h" />
 		<Unit filename="sds.c">
 			<Option compilerVar="CC" />
 		</Unit>
