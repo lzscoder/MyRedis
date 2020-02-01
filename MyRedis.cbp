@@ -43,11 +43,21 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="redisassert.h" />
+		<Unit filename="object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="redis.h" />
 		<Unit filename="sds.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="sds.h" />
+		<Unit filename="t_zset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.h" />
 		<Unit filename="zmalloc.c">
 			<Option compilerVar="CC" />
 		</Unit>
