@@ -39,11 +39,22 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="dict.h" />
+		<Unit filename="endianconv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="endianconv.h" />
 		<Unit filename="fmacros.h" />
+		<Unit filename="intset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="intset.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="object.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="redis.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="redis.h" />
