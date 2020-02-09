@@ -43,11 +43,9 @@
 1579415324 /home/zsco/code/MyRedis/dict.h
 	<inttypes.h>
 
-1580733093 source:/home/zsco/code/MyRedis/main.c
+1580795515 source:/home/zsco/code/MyRedis/main.c
 	<stdio.h>
-	"zmalloc.h"
-	"intset.h"
-	<stdlib.h>
+	"ziplist.h"
 
 1578140986 source:/home/zsco/code/MyRedis/sds.c
 	"sds.h"
@@ -93,10 +91,10 @@
 	"zmalloc.h"
 	<string.h>
 
-1580314279 /home/zsco/code/MyRedis/util.h
+1581255678 /home/zsco/code/MyRedis/util.h
 	"sds.h"
 
-1580314447 source:/home/zsco/code/MyRedis/util.c
+1581255722 source:/home/zsco/code/MyRedis/util.c
 	"fmacros.h"
 	<stdlib.h>
 	<stdio.h>
@@ -119,7 +117,7 @@
 
 1580645196 /home/zsco/code/MyRedis/endianconv.h
 
-1580733435 source:/home/zsco/code/MyRedis/intset.c
+1580733941 source:/home/zsco/code/MyRedis/intset.c
 	"intset.h"
 	<stdio.h>
 	<string.h>
@@ -127,8 +125,26 @@
 	"endianconv.h"
 	<stdint.h>
 	"redis.h"
+	<stdio.h>
+	"zmalloc.h"
+	"intset.h"
+	<stdlib.h>
 
 1580730608 /home/zsco/code/MyRedis/intset.h
 	<stdint.h>
 	<stddef.h>
+
+1581255596 /home/zsco/code/MyRedis/ziplist.h
+
+1581255515 source:/home/zsco/code/MyRedis/ziplist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<limits.h>
+	"zmalloc.h"
+	"util.h"
+	"ziplist.h"
+	"endianconv.h"
+	"assert.h"
 
